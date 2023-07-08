@@ -1,2 +1,5 @@
 #!/bin/bash
-cd /.
+#changer le repertoire de travail au repertoire
+home_dir=$HOME
+cd "$home_dir"
+echo "nouveau repertoire de travail : $PWD"
